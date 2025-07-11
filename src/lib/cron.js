@@ -12,3 +12,5 @@ const job = new cron.CronJob('*/14 * * * *', () => {
         console.error(`Error executing cron job: ${err.message}`);
     });
 })
+
+export default job;
